@@ -1,5 +1,8 @@
 {
     // editor
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "on",
+    "editor.autoIndent": true,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -12,7 +15,7 @@
     "git.showPushSuccessNotification": true,
 
     //workbench
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Visual Studio Light",
 
     //tarminal
     "terminal.external.osxExec": "iTerm.app",
@@ -66,5 +69,6 @@
         "haskell": "runhaskell",
         "nim": "nim compile --verbosity:0 --hints:off --run"
     },
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "vs-minimal"
 }
